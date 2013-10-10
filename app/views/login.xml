@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+	  <View layout="vertical">
+	    <Label>email</Label>
+	    <TextField id="email" />
+	    <Label>password</Label>
+	    <TextField id="password" passwordMask="true" />  
+	  </View>
+	</Window>
+</Alloy>

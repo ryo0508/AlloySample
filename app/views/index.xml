@@ -1,0 +1,20 @@
+<Alloy>
+  <TabGroup>
+    <Tab id="tab1" title="Basic TableView">
+      <Window title="basic rows">
+    		<TableView id="main_menu" />
+  		</Window>
+		</Tab>
+		<Tab id="tab2" title="Section TableView">
+		  <Window title="Section TableView">
+  		  <TableView>
+  		    <TableViewSection headerTitle="hogehoge">
+  		      <TableViewRow title="row1"></TableViewRow>
+  		      <TableViewRow title="row2"></TableViewRow>
+  		      <TableViewRow title="row3"></TableViewRow>
+  		    </TableViewSection>
+  		  </TableView>
+		  </Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

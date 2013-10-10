@@ -1,0 +1,8 @@
+
+".container" : {
+  backgroundColor:"white"
+},
+"#detail_body" : {
+  height:Ti.UI.SIZE,
+  layout:'vertical'
+}

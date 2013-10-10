@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+	  <View id="detail_body">
+	    <Label id="post_title"></Label>
+	    <Label id="post_body"></Label>
+	    <Label id="post_category"></Label>
+	  </View>
+	</Window>
+</Alloy>
