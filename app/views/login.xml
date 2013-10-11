@@ -4,7 +4,8 @@
 	    <Label>email</Label>
 	    <TextField id="email" />
 	    <Label>password</Label>
-	    <TextField id="password" passwordMask="true" />  
+	    <TextField id="password" passwordMask="true" />
+	    <Button id="login_submit">SUBMIT</Button>  
 	  </View>
 	</Window>
 </Alloy>
