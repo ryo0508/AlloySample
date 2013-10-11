@@ -25,6 +25,13 @@ function login(email, password) {
     var jdata = JSON.parse(data);
     
     Ti.API.info(data);
+    
+    Ti.API.info("Your AuthToken is => " + jdata.data.auth_token);
+    
+    Ti.App.auth_token = jdata.data.auth_token;
+    
+    var view = Alloy.createController('login_success', args).getView();
+    $.Alloy.Globals.tab1.open(view); 
   };
   
   xhr.open('POST', url);

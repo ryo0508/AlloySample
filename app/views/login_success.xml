@@ -1,0 +1,7 @@
+<Alloy>
+  <Window class="container">
+	  <View>
+	    <Label id="login_status" />
+	  </View>
+	</Window>
+</Alloy>

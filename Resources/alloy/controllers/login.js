@@ -7,8 +7,9 @@ function Controller() {
         };
         xhr.onload = function() {
             var data = this.responseText;
-            JSON.parse(data);
+            var jdata = JSON.parse(data);
             Ti.API.info(data);
+            Ti.API.info("Your AuthToken is => " + jdata.data.auth_token);
         };
         xhr.open("POST", url);
         var params = {
